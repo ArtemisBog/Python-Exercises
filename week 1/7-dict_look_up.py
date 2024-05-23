@@ -11,3 +11,10 @@ simple_dict = {
 }
 
 key = input("Enter a fruit name to look up its description: ").lower()
+
+
+if key in simple_dict.keys():
+    print(simple_dict[key])
+
+else:
+    print("This fruit is unknown")
