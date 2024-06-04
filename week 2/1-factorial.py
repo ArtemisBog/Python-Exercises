@@ -11,5 +11,5 @@ def factorial(number):
         f *= i
     return f
 
-# to_print = factorial(number) 
-print(factorial(number))
+factorial_result = factorial(number) 
+print(factorial_result)
