@@ -4,19 +4,10 @@
 # Input: 10
 # Output: [2, 3, 5, 7]
 
-user_number = int(input("Enter the number: "))
+list = [3]
 
-primes_list = []
-
-for prime_number in range(2, user_number + 1):
-    is_prime = True
-    for divisor in range(2, int(prime_number ** 0.5) + 1):
-        if prime_number % divisor == 0:
-            is_prime = False
-            break
-
-    if is_prime:
-        primes_list.append(prime_number)
-
-
-print(primes_list)
+for number in list:
+    test = True
+    for lesser_number in range(0, number+1):
+        test = False
+    print("Test result: ", test)

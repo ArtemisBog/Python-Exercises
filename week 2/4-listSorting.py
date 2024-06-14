@@ -6,4 +6,8 @@
 
 arr = list(map(int, input().split()))
 # This will take a space-separated input of integers and convert it into a list of integers.
-print(arr)
+
+
+print("List per user input: ", arr)
+arr.sort()
+print("Sorted list: ", arr)

@@ -7,8 +7,8 @@ number = int(input("Enter the number: "))
 
 def factorial(number):
     f = 1
-    for i in range(1, number + 1):
-        f *= i
+    for any_number in range(1, number + 1):
+        f *= any_number
     return f
 
 factorial_result = factorial(number) 
